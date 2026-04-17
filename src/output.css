@@ -265,6 +265,9 @@
   .py-\[40px\] {
     padding-block: 40px;
   }
+  .text-end {
+    text-align: end;
+  }
   .text-\[14px\] {
     font-size: 14px;
   }
@@ -277,8 +280,14 @@
   .text-\[20px\] {
     font-size: 20px;
   }
+  .text-\[30px\] {
+    font-size: 30px;
+  }
   .text-\[35px\] {
     font-size: 35px;
+  }
+  .text-\[40px\] {
+    font-size: 40px;
   }
   .text-\[50px\] {
     font-size: 50px;
@@ -318,6 +327,31 @@
       flex-direction: row;
     }
   }
+  .lg\:items-end {
+    @media (width >= 64rem) {
+      align-items: flex-end;
+    }
+  }
+  .lg\:justify-end {
+    @media (width >= 64rem) {
+      justify-content: flex-end;
+    }
+  }
+  .lg\:gap-\[30px\] {
+    @media (width >= 64rem) {
+      gap: 30px;
+    }
+  }
+  .lg\:gap-\[40pc\] {
+    @media (width >= 64rem) {
+      gap: 40pc;
+    }
+  }
+  .lg\:gap-\[40px\] {
+    @media (width >= 64rem) {
+      gap: 40px;
+    }
+  }
   .lg\:p-\[0\] {
     @media (width >= 64rem) {
       padding: 0;
@@ -326,6 +360,11 @@
   .lg\:p-\[0px\] {
     @media (width >= 64rem) {
       padding: 0px;
+    }
+  }
+  .lg\:text-end {
+    @media (width >= 64rem) {
+      text-align: end;
     }
   }
   .lg\:font-mono {
@@ -351,6 +390,11 @@
   .lg\:text-\[55px\] {
     @media (width >= 64rem) {
       font-size: 55px;
+    }
+  }
+  .lg\:text-\[60px\] {
+    @media (width >= 64rem) {
+      font-size: 60px;
     }
   }
   .lg\:font-normal {
