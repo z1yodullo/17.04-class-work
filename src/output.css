@@ -9,6 +9,7 @@
       "Courier New", monospace;
     --color-black: #000;
     --color-white: #fff;
+    --spacing: 0.25rem;
     --font-weight-normal: 400;
     --font-weight-bold: 700;
     --font-weight-black: 900;
@@ -264,8 +265,14 @@
   .justify-end {
     justify-content: flex-end;
   }
+  .gap-0 {
+    gap: calc(var(--spacing) * 0);
+  }
   .gap-\[10px\] {
     gap: 10px;
+  }
+  .gap-\[15px\] {
+    gap: 15px;
   }
   .gap-\[20ox\] {
     gap: 20ox;
@@ -278,6 +285,9 @@
   }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[50xp\] {
+    gap: 50xp;
   }
   .gap-\[100px\] {
     gap: 100px;
@@ -312,6 +322,9 @@
   .border-black {
     border-color: var(--color-black);
   }
+  .border-white {
+    border-color: var(--color-white);
+  }
   .bg-black {
     background-color: var(--color-black);
   }
@@ -329,6 +342,9 @@
   }
   .p-\[20px\] {
     padding: 20px;
+  }
+  .p-\[50px\] {
+    padding: 50px;
   }
   .p-\[y\] {
     padding: y;
@@ -350,6 +366,9 @@
   }
   .px-\[35px\] {
     padding-inline: 35px;
+  }
+  .px-\[50px\] {
+    padding-inline: 50px;
   }
   .px-\[100px\] {
     padding-inline: 100px;
@@ -424,6 +443,12 @@
   }
   .text-\[2\] {
     color: 2;
+  }
+  .text-\[grat\] {
+    color: grat;
+  }
+  .text-\[gray\] {
+    color: gray;
   }
   .text-black {
     color: var(--color-black);
